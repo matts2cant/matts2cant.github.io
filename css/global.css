@@ -1,0 +1,152 @@
+.section-header
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.container.content {
+    margin-bottom: 200px;
+}
+
+.blue
+{
+    color: #08C;
+}
+
+.accent
+{
+    color: #00689e;
+}
+
+.light-grey
+{
+    color: #dddddd;
+}
+
+div.profile-pic {
+    background-image: url('/img/profile.jpg');
+    height: 200px;
+    width: 200px;
+    margin-bottom: -200px;
+    margin-left: 75px;
+    z-index: 100;
+
+    background-size: 200px 200px;
+    float: left;
+    border-radius: 100px;
+    margin-right: 50px;
+    position: relative;
+    top: -11px;
+    border: solid 1px #CCC;
+    box-shadow: 0 0 0 6px #FFF inset;
+}
+
+.jumbotron p
+{
+    text-align: right;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.container .col-md-2 {
+    text-align: right;
+}
+
+.container .col-md-2 p {
+    margin-bottom: 20px;
+}
+
+.header
+{
+    background-color: #F5F5F5;;
+}
+
+.side-panel
+{
+    float: right;
+    position: fixed;
+    right: 0;
+    margin-right: 20px;
+}
+
+a {
+    color: #08C;
+}
+
+.row {
+    margin: 0;
+}
+
+.side-line {
+    border-left: solid 4px #eee;
+}
+
+.side-line p:before {
+    display: block;
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: -12px;
+    content: "\0000a0";
+    border: solid 4px #eee;
+    border-radius: 10px;
+}
+
+a:hover, a:active {
+    color: #00699d;
+}
+
+.social a {
+    display: block;
+    float: right;
+    margin: 5px 5px -32px;
+    height: 32px;
+    width: 32px;
+    font-size: 14px;
+    background-color: #999;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+    color: #fff;
+    border-radius: 16px;
+}
+
+.social a:hover {
+    background-color: #555;
+    height: 36px;
+    width: 36px;
+    margin: 3px 3px -36px;
+    line-height: 36px;
+    border-radius: 18px;
+}
+
+.social a.facebook:hover {
+    background-color: #3B5998;
+}
+
+.social a.twitter:hover {
+    background-color: #55ACEE;
+}
+
+.social a.linkedin:hover {
+    background-color: #4875B4;
+}
+
+.social a.print:hover {
+    background-color: #a30000;
+}
+
+@media print {
+    a[href]:after {
+        content: none !important;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .profile-pic {
+        display: none;
+    }
+}
