@@ -1,0 +1,22 @@
+{
+    "name": "cv",
+    "version": "2.0.0",
+    "homepage": "matts2cant.github.io",
+    "authors": [
+        "Matthieu de Canteloube <matts2cant@gmail.com>"
+    ],
+    "description": "Matthieu de Canteloube",
+    "main": "css/main.css",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "3.2.0",
+        "fontawesome": "4.2.0"
+    },
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}

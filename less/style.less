@@ -1,0 +1,93 @@
+@import "../bower_components/bootstrap/less/variables.less";
+@import "../bower_components/bootstrap/less/mixins.less";
+
+header {
+    .make-row();
+    padding: 20px 0;
+    background-color: #F9F9F9;
+
+
+    .title {
+        .make-sm-column(8);
+        .profile-pic {
+            background-image: url("../img/profile.jpg");
+            background-size: cover;
+            border: solid 1px #CCC;
+            box-shadow: 0 0 0 6px #FFF inset;
+            height: 120px;
+            width: 120px;
+            display: block;
+            float: left;
+            .border-top-radius(60px);
+            .border-bottom-radius(60px);
+        }
+        
+        h1 {
+            left: 20px;
+            position: relative;
+        }
+    }
+
+    .contact {
+        .make-sm-column(4);
+        font-weight: 200;
+
+        .address {
+            text-align: right;
+        }
+        
+        .social {
+            text-align: right;
+
+            a {
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                background-color: #0099F0;
+                border-radius: 15px;
+                line-height: 30px;
+                color: #fff;
+                text-align: center;
+
+                &.facebook {
+                    background-color: #3b5998;
+                }
+
+                &.github {
+                    background-color: #4183C4;
+                }
+
+                &.twitter {
+                    background-color: #00aced;
+                }
+
+                &.linkedin {
+                    background-color: #007bb6;
+                }
+            }
+        }
+    }
+}
+
+.content {
+    h2 {
+        font-weight: 100;
+        margin-bottom: 30px;
+    }
+    section {
+        .make-row();
+        font-weight: 200;
+        h3 {
+            .make-sm-column(2);
+            font-size: 16px;
+            margin: 0;
+        }
+        & > p {
+            .make-sm-column(10);
+            border-left: solid 4px #ddd;
+            margin: 0;
+            padding-left: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
