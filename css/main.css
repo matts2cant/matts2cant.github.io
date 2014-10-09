@@ -7851,15 +7851,11 @@ header {
 }
 header .title {
   position: relative;
+  float: left;
+  width: 66.66666667%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-}
-@media (min-width: 768px) {
-  header .title {
-    float: left;
-    width: 66.66666667%;
-  }
 }
 header .title .profile-pic {
   background-image: url("../img/profile.jpg");
@@ -7881,16 +7877,12 @@ header .title h1 {
 }
 header .contact {
   position: relative;
+  float: left;
+  width: 33.33333333%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
   font-weight: 200;
-}
-@media (min-width: 768px) {
-  header .contact {
-    float: left;
-    width: 33.33333333%;
-  }
 }
 header .contact .address {
   text-align: right;
@@ -7931,20 +7923,18 @@ header .contact .social a.linkedin {
 }
 .content section h3 {
   position: relative;
+  float: left;
+  width: 16.66666667%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
   font-size: 16px;
   margin: 0;
 }
-@media (min-width: 768px) {
-  .content section h3 {
-    float: left;
-    width: 16.66666667%;
-  }
-}
 .content section > p {
   position: relative;
+  float: left;
+  width: 83.33333333%;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -7953,9 +7943,8 @@ header .contact .social a.linkedin {
   padding-left: 20px;
   padding-bottom: 20px;
 }
-@media (min-width: 768px) {
-  .content section > p {
-    float: left;
-    width: 83.33333333%;
+@media print {
+  a[href]:after {
+    content: none;
   }
 }
