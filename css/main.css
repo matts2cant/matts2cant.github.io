@@ -7900,17 +7900,20 @@ header .contact .social a {
   color: #fff;
   text-align: center;
 }
+header .contact .social a.print {
+  background-color: #083355;
+}
 header .contact .social a.facebook {
   background-color: #3b5998;
 }
 header .contact .social a.github {
   background-color: #4183C4;
 }
-header .contact .social a.twitter {
-  background-color: #00aced;
-}
 header .contact .social a.linkedin {
   background-color: #007bb6;
+}
+header .contact .social a.twitter {
+  background-color: #00aced;
 }
 .content h2 {
   font-weight: 100;
