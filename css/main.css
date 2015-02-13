@@ -7900,8 +7900,11 @@ header .contact .social a {
   color: #fff;
   text-align: center;
 }
+header .contact .social a.email {
+  background-color: #07355F;
+}
 header .contact .social a.print {
-  background-color: #083355;
+  background-color: #07355F;
 }
 header .contact .social a.facebook {
   background-color: #3b5998;
